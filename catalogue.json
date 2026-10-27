@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "name": "Pearl blue bag",
+    "category": "Bags",
+    "slug": "pearl-blue-bag",
+    "images": [
+      "assets/images/pearl-blue-bag.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "Sky blue stitches and pearl details. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 2,
+    "name": "Rose bloom bag",
+    "category": "Bags",
+    "slug": "rose-bag",
+    "images": [
+      "assets/images/rose-bag.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "A deep red rose and a pearl handle. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 3,
+    "name": "Pink bow charm",
+    "category": "Keychains",
+    "slug": "bow-charm",
+    "images": [
+      "assets/images/bow-charm.webp",
+      "assets/images/bow-charm-img_6695.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "A soft pink bow for your everyday. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 4,
+    "name": "Daisy coaster",
+    "category": "Little things",
+    "slug": "daisy-coaster",
+    "images": [
+      "assets/images/daisy-coaster.webp",
+      "assets/images/daisy-coaster-img_3679.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "Cream and yellow flowers around a green center. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 5,
+    "name": "Butterfly garden bag",
+    "category": "Bags",
+    "slug": "butterfly-bag",
+    "images": [
+      "assets/images/butterfly-bag.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "Green and white with yellow butterflies. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 6,
+    "name": "Cream mini bag",
+    "category": "Bags",
+    "slug": "cream-bag",
+    "images": [
+      "assets/images/cream-bag.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "A little cream bag with a golden clasp. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 7,
+    "name": "Purple heart charm",
+    "category": "Keychains",
+    "slug": "heart-charm",
+    "images": [
+      "assets/images/heart-charm.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "A tiny heart in a rich purple shade. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 8,
+    "name": "Blue ruffle scrunchie",
+    "category": "Little things",
+    "slug": "blue-scrunchie",
+    "images": [
+      "assets/images/blue-scrunchie.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "Soft blue ruffles with a white edge. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 9,
+    "name": "Rose scrunchies",
+    "category": "Little things",
+    "slug": "rose-scrunchies",
+    "images": [
+      "assets/images/rose-scrunchies.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "Cream crochet with deep red roses. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 10,
+    "name": "Rose garden pouch",
+    "category": "Bags",
+    "slug": "rose-pouch",
+    "images": [
+      "assets/images/rose-pouch.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "Cream stitches and a bouquet of roses. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 11,
+    "name": "Pink flower charm",
+    "category": "Keychains",
+    "slug": "pink-flower-charm",
+    "images": [
+      "assets/images/pink-flower-charm.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "A pink flower with a pearl detail. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 12,
+    "name": "Flower ring coaster",
+    "category": "Little things",
+    "slug": "flower-coaster",
+    "images": [
+      "assets/images/flower-coaster.webp"
+    ],
+    "pricePaise": null,
+    "active": true,
+    "description": "A ring of cream and purple flowers. Handmade crochet; contact us to discuss your preferred colours and availability."
+  },
+  {
+    "id": 13,
+    "slug": "sunshine-plush",
+    "name": "Sunshine plush",
+    "category": "Little things",
+    "pricePaise": null,
+    "active": true,
+    "description": "A cheerful yellow sun with soft pointed rays. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/sunshine-plush.webp"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "grey-bunny",
+    "name": "Grey bunny",
+    "category": "Little things",
+    "pricePaise": null,
+    "active": true,
+    "description": "A floppy-eared grey crochet bunny with a little pink smile. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/grey-bunny.webp",
+      "assets/images/grey-bunny-img_6646.webp",
+      "assets/images/grey-bunny-img_6654.webp"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "pink-scrunchie",
+    "name": "Pink ruffle scrunchie",
+    "category": "Little things",
+    "pricePaise": null,
+    "active": true,
+    "description": "Soft pink ruffles for a lovely everyday detail. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/pink-scrunchie.webp",
+      "assets/images/pink-scrunchie-img_4641.webp"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "yellow-scrunchie",
+    "name": "Yellow flower scrunchie",
+    "category": "Little things",
+    "pricePaise": null,
+    "active": true,
+    "description": "A sunny yellow crochet accessory. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/yellow-scrunchie.webp"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "yellow-basket",
+    "name": "Sunshine basket",
+    "category": "Little things",
+    "pricePaise": null,
+    "active": true,
+    "description": "A little yellow crochet basket with a blue bow. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/yellow-basket.webp"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "bear-hat",
+    "name": "Bear ear hat",
+    "category": "Little things",
+    "pricePaise": null,
+    "active": true,
+    "description": "A charcoal crochet hat with round bear ears. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/bear-hat.webp"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "bow-bag",
+    "name": "Burgundy bow bag",
+    "category": "Bags",
+    "pricePaise": null,
+    "active": true,
+    "description": "A burgundy crochet bag with a contrasting bow. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/bow-bag.webp"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "ghost-plush",
+    "name": "Little ghost plush",
+    "category": "Little things",
+    "pricePaise": null,
+    "active": true,
+    "description": "A friendly cream crochet ghost. Contact us for availability and custom options.",
+    "images": [
+      "assets/images/ghost-plush.webp"
+    ]
+  }
+]
