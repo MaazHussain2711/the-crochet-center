@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node --env-file-if-exists=.env server.cjs",
     "dev": "node --watch --env-file-if-exists=.env server.cjs",
-    "check": "node --check server.cjs && node --check lib/store.cjs && node --check assets/app.js && node --check assets/admin.js",
+    "check": "node --check server.cjs && node --check lib/store.cjs && node --check assets/app.js && node --check assets/admin.js && node --check assets/effects.js",
     "test": "node --test test/*.test.cjs",
     "build": "node scripts/build.cjs",
     "build:pages": "node scripts/build-pages.cjs"

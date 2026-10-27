@@ -13,3 +13,11 @@
 ## GitHub Pages build
 
 Project-subpath browser checks passed for all 20 products, loaded photos, product dialog, selection and custom enquiry preparation, copy interaction and privacy links. No JavaScript errors or failing HTTP responses occurred. The Pages artifact excludes backend code, admin assets, credentials and database files. The enquiry flow explicitly asks customers to copy and send their message on Instagram.
+
+## Typography, accessibility and video refresh
+
+- Drive was refreshed; two supplied MOV files were found in LOGOS AND OTHER IMAGES. The separate VIDEOS folder was empty. Both clips were inspected as contact sheets and converted to silent MP4; the sunflower bouquet was added as product 21. No new distinct product photos were found beyond the existing collection.
+- Axe checked WCAG 2 A/AA, 2.1 AA and 2.2 AA rules on the storefront and product dialog, with zero reported violations. This automated check is not a full conformance certification or a screen-reader user study.
+- Layout checks passed at 320, 390, 768, 1440 and 1920px. Text enlarged to 200% passed reflow checks at 320, 390, 768 and 1440px. Desktop, phone and tablet renders were inspected.
+- Chromium, Firefox and WebKit passed motion preference/persistence, reduced-motion override, skip-link activation, menu Escape/focus return, product-dialog keyboard checks and playback of both videos. These are desktop engine tests, not physical device certification.
+- Enquiry preparation, sorting, catalogue filters, image loading and bouquet selection passed with no page errors or HTTP failures in the local Pages build. Native video controls remain available, with captions and equivalent visible descriptions.

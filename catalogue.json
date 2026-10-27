@@ -243,5 +243,17 @@
     "images": [
       "assets/images/ghost-plush.webp"
     ]
+  },
+  {
+    "id": 21,
+    "slug": "sunflower-bouquet",
+    "name": "Sunflower bouquet",
+    "category": "Little things",
+    "description": "A bouquet of yellow crochet sunflowers with dark centres and green stems, wrapped in a light knitted cover. Ask us about bouquet sizes, colours and availability.",
+    "images": [
+      "assets/images/sunflower-bouquet-film.webp"
+    ],
+    "pricePaise": null,
+    "active": true
   }
 ]

@@ -19,9 +19,9 @@ Without an admin password the local storefront works, but admin sign-in is disab
 
 ## Workflow
 
-Customers browse 20 products, inspect alternate photos, search/filter, save favourites and create a selection. The enquiry form saves their contact preference, items and custom notes to the database and returns a reference. It does not send email, WhatsApp or Instagram messages automatically. The owner checks `/admin`, replies using the customer's supplied channel and changes status from new to contacted, completed or archived. The admin desk also edits product names, descriptions, categories, images and visibility, and can add products using existing deployed images.
+Customers browse 21 products, inspect alternate photos, search/filter, save favourites and create a selection. The enquiry form saves their contact preference, items and custom notes to the database and returns a reference. It does not send email, WhatsApp or Instagram messages automatically. The owner checks `/admin`, replies using the customer's supplied channel and changes status from new to contacted, completed or archived. The admin desk also edits product names, descriptions, categories, images and visibility, and can add products using existing deployed images.
 
-The initial `catalogue.json` seeds a new database once. After that, the database owns product changes; editing the seed does not overwrite admin edits. Add new image files in `assets/images`, deploy, then add their paths in the product editor. Descriptive names were inferred from supplied photographs and remain editable. Images and logo were supplied through the user's Drive folder. Original source-to-image mappings are in the parent workspace's `reference` folder.
+`catalogue.json` inserts missing product records at startup. Existing records remain owned by the database: changing the seed never overwrites admin edits or visibility. Keep seed IDs unique and stable. Add new image files in `assets/images`, deploy, then add their paths in the product editor. Descriptive names were inferred from supplied photographs and remain editable. Images and logo were supplied through the user's Drive folder. Original source-to-image mappings are in the parent workspace's `reference` folder.
 
 ## Check and build
 
@@ -54,3 +54,9 @@ The application does not deliver notifications. Review the admin desk regularly.
 ## Payments later
 
 Keep the enquiry data separate from a future order/payment ledger. Add server-confirmed quotations in integer paise, customer approval, expiring payment links and a gateway order per payment. Verify both checkout and webhook signatures, reconcile captured amounts/currency server-side, and make webhook handling idempotent. Add refunds, shipping/tax rules, stock reservation, notifications and fulfilment states before enabling checkout. Never accept a client-provided payment total or label a browser callback as paid. Razorpay is a possible provider, subject to the owner's choice, merchant onboarding and test-mode verification. No payment credentials or payment SDK are included in this enquiry-first release.
+
+## Accessibility and product films
+
+The latest storefront has a larger responsive type scale, minimum 44px interactive targets, visible focus styles, a skip link, text-zoom reflow and higher-contrast text. Product sorting supports featured, A–Z and Z–A. Two supplied silent product films use H.264 MP4 with fast-start metadata, native playback controls, no autoplay, still-image posters, optional visual-description captions and visible written descriptions. Video downloads begin on request, not on page load. New media files have embedded location metadata removed.
+
+A drawn yarn thread, gentle hero movement, scroll reveals and a small selection animation enhance the page. Effects respect the operating system’s reduced-motion setting. The Pause effects control in the footer persists the visitor’s preference. Content remains visible if animation or observer APIs are unavailable. Only one video plays at a time, and clips pause when scrolled out of view.
